@@ -51,7 +51,7 @@ export default function Header() {
           <div className="flex justify-between items-center py-0.5 lg:py-1">
             {/* Logo optimizado para desktop */}
             <Link to="/" className="flex items-center space-x-3 lg:space-x-4 hover-lift-intense">
-              <div className="relative w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 xl:w-18 xl:h-18">
+              <div className="relative w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 xl:w-28 xl:h-28">
                 <img 
                   src="/wasabi trader azul.png" 
                   alt="Wasabi Trader Logo" 
