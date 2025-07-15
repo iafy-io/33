@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="flex items-center space-x-3 lg:space-x-4 mb-6">
               <div className="relative w-12 h-12 lg:w-16 lg:h-16 bg-white rounded-xl shadow-lg p-2">
                 <img 
-                  src="/wasabi-azul-2.png" 
+                  src="/wasabi azul 2.png" 
                   alt="Wasabi Trader Logo" 
                   className="w-full h-full object-contain"
                   onError={(e) => {
