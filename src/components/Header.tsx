@@ -22,12 +22,12 @@ export default function Header() {
       <div className="bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 text-white py-2 lg:py-3 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 via-transparent to-blue-500/20 animate-pulse"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative">
-          <div className="flex items-center justify-center space-x-2 lg:space-x-6 text-center">
+          <div className="flex flex-col sm:flex-row items-center justify-center space-y-1 sm:space-y-0 sm:space-x-2 lg:space-x-6 text-center">
             <div className="flex items-center space-x-2 bg-white/20 rounded-full px-3 lg:px-6 py-1 lg:py-2">
               <Shield className="w-4 h-4 lg:w-6 lg:h-6 animate-pulse" />
-              <span className="font-black text-sm lg:text-xl tracking-wide">AHORRO GARANTIZADO</span>
+              <span className="font-black text-xs sm:text-sm lg:text-xl tracking-wide">AHORRO GARANTIZADO</span>
             </div>
-            <div className="hidden lg:flex items-center space-x-6 text-sm font-bold">
+            <div className="hidden sm:flex items-center space-x-2 lg:space-x-6 text-xs lg:text-sm font-bold">
               <span className="flex items-center space-x-2">
                 <span className="w-2 h-2 bg-yellow-400 rounded-full animate-ping"></span>
                 <span>+12 años experiencia</span>

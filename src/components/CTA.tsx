@@ -91,10 +91,11 @@ export default function CTA() {
           </div>
         </div>
         
-        <div className="inline-flex items-center bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-xl font-black text-base shadow-lg">
-          <a href="#formulario" className="inline-flex items-center bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-xl font-black text-base shadow-lg hover:from-blue-400 hover:to-blue-500 transition-colors">
-          </a>
-        </div>
+        <a href="#formulario" className="inline-flex items-center bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-xl font-black text-base shadow-lg hover:from-blue-400 hover:to-blue-500 transition-colors">
+          <Shield className="w-5 h-5 mr-2" />
+          EMPEZAR AHORA GRATIS
+          <ArrowRight className="w-5 h-5 ml-2" />
+        </a>
       </div>
     </section>
   );

@@ -21,22 +21,22 @@ export default function Hero() {
                 <div className="ml-2 lg:ml-3 w-3 h-3 bg-yellow-400 rounded-full animate-ping"></div>
               </div>
               
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black text-gray-900 leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-gray-900 leading-tight">
                 <span className="block animate-fade-in-up">Compara y</span>
                 <span className="block gradient-text text-glow animate-fade-in-up" style={{animationDelay: '0.2s'}}>
                   Ahorra
                 </span>
-                <span className="block text-2xl sm:text-3xl lg:text-4xl xl:text-5xl text-gray-700 font-bold mt-3 lg:mt-4 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
+                <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-gray-700 font-bold mt-3 lg:mt-4 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
                   en Luz y Gas
                 </span>
               </h1>
               
               <div className="space-y-4 lg:space-y-6 animate-fade-in-up" style={{animationDelay: '0.6s'}}>
-                <p className="text-lg lg:text-xl xl:text-2xl text-gray-700 leading-relaxed">
-                  <span className="text-blue-600 font-black text-xl lg:text-2xl xl:text-3xl text-glow">+12 años de experiencia</span> y 
-                  <span className="text-blue-600 font-black text-xl lg:text-2xl xl:text-3xl text-glow"> +100 asesores expertos</span> con IA avanzada.
+                <p className="text-base sm:text-lg lg:text-xl xl:text-2xl text-gray-700 leading-relaxed">
+                  <span className="text-blue-600 font-black text-lg sm:text-xl lg:text-2xl xl:text-3xl text-glow">+12 años de experiencia</span> y 
+                  <span className="text-blue-600 font-black text-lg sm:text-xl lg:text-2xl xl:text-3xl text-glow"> +100 asesores expertos</span> con IA avanzada.
                 </p>
-                <p className="text-base lg:text-lg text-gray-600 font-bold">
+                <p className="text-sm sm:text-base lg:text-lg text-gray-600 font-bold">
                   🚀 Proceso ultra-rápido • 🤖 Con inteligencia artificial • 🛡️ Totalmente seguro
                 </p>
               </div>
