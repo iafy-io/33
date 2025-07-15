@@ -15,8 +15,20 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
           <div className="animate-fade-in-up">
             <div className="flex items-center space-x-3 lg:space-x-4 mb-6">
-              <div className="w-12 h-12 lg:w-16 lg:h-16 bg-white rounded-xl flex items-center justify-center shadow-lg">
-                <span className="text-blue-600 font-black text-lg lg:text-2xl">W</span>
+              <div className="relative w-12 h-12 lg:w-16 lg:h-16 bg-white rounded-xl shadow-lg p-2">
+                <img 
+                  src="/wasabi trader azul.png" 
+                  alt="Wasabi Trader Logo" 
+                  className="w-full h-full object-contain"
+                  onError={(e) => {
+                    // Fallback si la imagen no carga
+                    e.currentTarget.style.display = 'none';
+                    e.currentTarget.nextElementSibling.style.display = 'flex';
+                  }}
+                />
+                <div className="w-full h-full flex items-center justify-center" style={{display: 'none'}}>
+                  <span className="text-blue-600 font-black text-lg lg:text-2xl">W</span>
+                </div>
               </div>
               <div>
                 <h3 className="text-xl lg:text-2xl font-black">Wasabi Trader</h3>
