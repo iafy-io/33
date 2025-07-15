@@ -55,7 +55,7 @@ export default function Header() {
                 <img 
                   src="/wasabi trader azul.png" 
                   alt="Wasabi Trader Logo" 
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
                   onError={(e) => {
                     // Fallback si la imagen no carga
                     e.currentTarget.style.display = 'none';
@@ -64,22 +64,6 @@ export default function Header() {
                 />
                 <div className="w-full h-full bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center shadow-lg" style={{display: 'none'}}>
                   <span className="text-white font-black text-lg lg:text-2xl">W</span>
-                </div>
-                <div className="absolute -top-1 -right-1 w-3 h-3 lg:w-4 lg:h-4 bg-yellow-400 rounded-full animate-bounce"></div>
-              </div>
-              <div>
-                <h1 className="text-xl lg:text-2xl font-black text-gray-900 tracking-tight">
-                  Wasabi Trader
-                </h1>
-                <div className="flex items-center space-x-2 lg:space-x-3">
-                  <p className="text-xs lg:text-sm font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-                    Comparador Inteligente
-                  </p>
-                  <div className="flex space-x-1">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className="w-2 h-2 lg:w-3 lg:h-3 text-yellow-500 fill-current animate-pulse" style={{animationDelay: `${i * 0.1}s`}} />
-                    ))}
-                  </div>
                 </div>
               </div>
             </Link>
