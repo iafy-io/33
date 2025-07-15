@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Clock, Users, Brain, Star, ArrowRight, Zap, Target, TrendingUp, Award } from 'lucide-react';
+import { Shield, Clock, Users, Brain, Star, ArrowRight, Zap, Target } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -120,7 +120,6 @@ export default function Hero() {
                       </p>
                       <div className="flex items-center justify-center space-x-3 lg:space-x-4 mt-3 lg:mt-4">
                         <div className="flex items-center space-x-2">
-                          <TrendingUp className="w-4 h-4 lg:w-5 lg:h-5 text-green-600" />
                           <span className="text-green-600 font-bold text-sm lg:text-base">Ahorro medio</span>
                         </div>
                         <div className="text-xl lg:text-2xl font-black text-blue-600">200€/año</div>
