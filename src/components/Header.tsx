@@ -51,7 +51,7 @@ export default function Header() {
           <div className="flex justify-between items-center py-3 lg:py-4">
             {/* Logo optimizado para desktop */}
             <Link to="/" className="flex items-center space-x-3 lg:space-x-4 hover-lift-intense">
-              <div className="relative w-12 h-12 lg:w-16 lg:h-16">
+              <div className="relative w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24">
                 <img 
                   src="/wasabi trader azul.png" 
                   alt="Wasabi Trader Logo" 
@@ -63,7 +63,7 @@ export default function Header() {
                   }}
                 />
                 <div className="w-full h-full bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center shadow-lg" style={{display: 'none'}}>
-                  <span className="text-white font-black text-lg lg:text-2xl">W</span>
+                  <span className="text-white font-black text-xl sm:text-2xl lg:text-3xl">W</span>
                 </div>
               </div>
             </Link>
