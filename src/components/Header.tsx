@@ -52,11 +52,9 @@ export default function Header() {
             {/* Logo optimizado para desktop */}
             <Link to="/" className="flex items-center space-x-3 lg:space-x-4 hover-lift-intense">
               <div className="relative">
-                <img 
-                  src="/Diseño sin título (16).png" 
-                  alt="Wasabi Trader Logo" 
-                  className="h-12 lg:h-16 w-auto object-contain"
-                />
+                <div className="w-12 h-12 lg:w-16 lg:h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center shadow-lg">
+                  <span className="text-white font-black text-lg lg:text-2xl">W</span>
+                </div>
                 <div className="absolute -top-1 -right-1 w-3 h-3 lg:w-4 lg:h-4 bg-yellow-400 rounded-full animate-bounce"></div>
               </div>
               <div>

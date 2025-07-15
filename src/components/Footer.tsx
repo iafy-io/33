@@ -15,11 +15,9 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
           <div className="animate-fade-in-up">
             <div className="flex items-center space-x-3 lg:space-x-4 mb-6">
-              <img 
-                src="/Diseño sin título (16).png" 
-                alt="Wasabi Trader Logo" 
-                className="h-12 lg:h-16 w-auto object-contain brightness-0 invert"
-              />
+              <div className="w-12 h-12 lg:w-16 lg:h-16 bg-white rounded-xl flex items-center justify-center shadow-lg">
+                <span className="text-blue-600 font-black text-lg lg:text-2xl">W</span>
+              </div>
               <div>
                 <h3 className="text-xl lg:text-2xl font-black">Wasabi Trader</h3>
                 <p className="text-blue-400 font-bold text-sm lg:text-base">Comparador Inteligente</p>
