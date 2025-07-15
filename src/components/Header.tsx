@@ -53,7 +53,7 @@ export default function Header() {
             <Link to="/" className="flex items-center space-x-3 lg:space-x-4 hover-lift-intense">
               <div className="relative w-20 h-20 sm:w-24 sm:h-24 lg:w-32 lg:h-32 xl:w-36 xl:h-36">
                 <img 
-                  src="/wasabi trader azul.png" 
+                  src="/wasabi-azul-2.png" 
                   alt="Wasabi Trader Logo" 
                   className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
                   onError={(e) => {
